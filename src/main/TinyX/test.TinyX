@@ -1,0 +1,7 @@
+a = 100
+bc = 150
+show a
+show bc
+b=a
+a=0
+show b
