@@ -16,6 +16,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>11</maven.compiler.target>
+		<antlr4.visitor>true</antlr4.visitor>
+            <antlr4.listener>true</antlr4.listener>
 	</properties>
 	
 	<build>
@@ -58,6 +60,9 @@
 			    <groupId>org.antlr</groupId>
  			   <artifactId>antlr4-maven-plugin</artifactId>
   			  <version>4.7.1</version>
+  		  	<configuration>
+            		    <visitor>true</visitor>
+      		    </configuration>
    			 <executions>
      			   <execution>
     				       <goals>
