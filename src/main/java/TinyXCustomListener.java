@@ -3,10 +3,6 @@ import java.util.HashMap;
 import main.antlr4.TinyXBaseListener;
 import main.antlr4.TinyXParser;
 
-/**
- *
- * @author Shalitha Suranga
- */
 public class TinyXCustomListener extends TinyXBaseListener {
 
 	HashMap<String, Integer> variableMap = new HashMap();
