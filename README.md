@@ -2,7 +2,7 @@
 A kind of very small programming language built on top of Java.
 
 Below is a test example:
-```txt
+```tinyX
 a = 100
 bc = 150
 show a
